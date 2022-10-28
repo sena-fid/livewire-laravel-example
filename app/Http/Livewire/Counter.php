@@ -15,6 +15,8 @@ class Counter extends Component
 
     public function decrement(){
         
+        sleep(2);
+
         $this->number--;
     }
 
